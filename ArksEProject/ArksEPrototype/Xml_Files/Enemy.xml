@@ -1,0 +1,26 @@
+<gameObject>
+	<nameId>OtherSoul</nameId>
+	<tag>Enemy</tag>
+	<component name="TransformComponent">
+		<positionX>800</positionX>
+		<positionY>280</positionY>
+		<rotationX>0</rotationX>
+		<rotationY>0</rotationY>
+		<scaleX>64</scaleX>
+		<scaleY>64</scaleY>
+	</component>
+	<component name="SpriteComponent">
+		<fileName>Assets/DumbGhost.png</fileName>
+		<numOfFrames> 5 </numOfFrames>
+		<animationSpeed> 120 </animationSpeed>
+	</component>
+	<component name="ColliderComponent">
+		<width>16</width>
+		<height>16</height>
+		<xOffset>30</xOffset>
+		<yOffset>30</yOffset>
+	</component>
+	<component name="PhysicsComponent">
+		<speed>75</speed>
+	</component>
+</gameObject>

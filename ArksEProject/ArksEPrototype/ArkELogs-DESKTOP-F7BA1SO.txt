@@ -1,0 +1,31 @@
+Log: Greeting User...
+Log: Attempting to initialize engine...
+Log: SDL_Init() succeeded!!
+Log: Mix_OpenAudio() succeeded.
+Log: (Initialize successful!
+Log: (SDL_CreateWindow() succeeded!!
+Log: Attempting to create hardware-accelerated renderer....
+Log: CreateRenderer() succeeded!!
+Log: Opened Assets file
+Log: This is a Zip file
+Log: Assets/ArksEngineLogo.png
+Log: Assets/dark.mp3
+Log: Assets/Hall.png
+Log: Assets/HallCollisionMap.png
+Log: Assets/HelloError.lua
+Log: Assets/home.mp3
+Log: Assets/MyRoom.png
+Log: Assets/myRoomCollisionMap.png
+Log: Assets/Red_Travler.png
+Log: Assets/soundEffect.wav
+Log: Assets/StartUp.mp3
+Log: All Data signature succeeded
+Log: Input Created
+Log: Enter scene
+Log: Collision Detected
+Log: Collision Detected
+Log: Collision Detected
+Log: Collision Detected
+Log: Collision Detected
+Log: Collision Detected
+Log: Exit scene

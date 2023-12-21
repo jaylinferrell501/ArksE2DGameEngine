@@ -1,0 +1,32 @@
+<gameObject>
+    <nameId>RedWanderer</nameId>
+    <tag>Player</tag>
+    <component name="TransformComponent"> 
+        <positionX>479</positionX>
+        <positionY>250</positionY>
+		<rotationX>0</rotationX>
+		<rotationY>0</rotationY>
+		<scaleX>64</scaleX>
+		<scaleY>64</scaleY>
+    </component>
+    <component name="SpriteComponent">
+        <fileName>Assets/Red_Travler.png</fileName>
+		<numOfFrames> 6 </numOfFrames>
+		<animationSpeed> 120 </animationSpeed>
+    </component>
+	<component name="ColliderComponent">
+		<width>32</width>
+		<height>64</height>
+		<xOffset>10</xOffset>
+		<yOffset>0</yOffset>
+	</component>
+    <component name="PhysicsComponent">
+		<speed>75</speed>
+	</component>
+    <component name="ControllerComponent"> </component>
+	<component name="ScriptComponent">
+		<spript>Assets/Player.lua</spript>
+	</component>
+	<component name="HealthComponent">
+	</component>
+</gameObject>

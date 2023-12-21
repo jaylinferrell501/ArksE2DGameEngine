@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArksEPrototype", "ArksEPrototype\ArksEPrototype.vcxproj", "{74317601-EC14-4AA0-83DE-8A1E6293D535}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF} = {E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArksEngine", "ArksEngine\ArksEngine.vcxproj", "{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74317601-EC14-4AA0-83DE-8A1E6293D535}.Debug|x64.ActiveCfg = Debug|x64
+		{74317601-EC14-4AA0-83DE-8A1E6293D535}.Debug|x64.Build.0 = Debug|x64
+		{74317601-EC14-4AA0-83DE-8A1E6293D535}.Debug|x86.ActiveCfg = Debug|Win32
+		{74317601-EC14-4AA0-83DE-8A1E6293D535}.Debug|x86.Build.0 = Debug|Win32
+		{74317601-EC14-4AA0-83DE-8A1E6293D535}.Release|x64.ActiveCfg = Release|x64
+		{74317601-EC14-4AA0-83DE-8A1E6293D535}.Release|x64.Build.0 = Release|x64
+		{74317601-EC14-4AA0-83DE-8A1E6293D535}.Release|x86.ActiveCfg = Release|Win32
+		{74317601-EC14-4AA0-83DE-8A1E6293D535}.Release|x86.Build.0 = Release|Win32
+		{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}.Debug|x64.ActiveCfg = Debug|x64
+		{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}.Debug|x64.Build.0 = Debug|x64
+		{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}.Debug|x86.Build.0 = Debug|Win32
+		{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}.Release|x64.ActiveCfg = Release|x64
+		{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}.Release|x64.Build.0 = Release|x64
+		{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}.Release|x86.ActiveCfg = Release|Win32
+		{E295EEFB-B970-4F8B-9C34-A6CCB5E2C4EF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27C84E5A-3B6A-4A93-BCB5-869F4966F36A}
+	EndGlobalSection
+EndGlobal
