@@ -21,7 +21,7 @@ namespace ArksEngine
 	{
 		ArksEngine::Core* m_pOwner; // A ptr to the ArksEngine::Core
 		const char* m_pFileName;  // A Path to the Actual image
-		SDL_Texture* m_pTexture;  // Texture Ptr
+		SDL_Texture* m_pTexture;  // Texture Ptr4
 
 
 	public:
